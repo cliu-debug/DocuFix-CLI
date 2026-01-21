@@ -1,4 +1,7 @@
-# DocuFix: AI 兼容性审计与增强套件
+# DocuFix-AI: AI 兼容性审计与增强套件
+
+[![PyPI version](https://img.shields.io/pypi/v/docufix-ai.svg)](https://pypi.org/project/docufix-ai/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 > [!TIP]
 > **让你的文档不再是 AI 的“幻觉来源”，而是它的“知识引擎”。**
@@ -14,20 +17,24 @@
 
 ## 🚀 快速开始
 
-### 1. 安装
+### 1. 安装 (推荐)
+直接通过 PyPI 安装最稳定版本：
 ```bash
-# 克隆仓库
-git clone https://github.com/your-repo/docufix.git
-cd docufix
-
-# 安装依赖
-pip install -e .
+pip install docufix-ai
 
 # 安装浏览器内核 (用于抓取动态页面)
 playwright install chromium
 ```
 
-### 2. 运行审计 (GEO Scan)
+### 2. 开发者安装 (克隆仓库)
+```bash
+git clone https://github.com/cliu-debug/DocuFix-CLI.git
+cd DocuFix-CLI
+pip install -e .
+playwright install chromium
+```
+
+### 3. 运行审计 (GEO Scan)
 一键获取文档的“灯塔”评分报告：
 ```bash
 python -m src.cli scan https://example.com/docs
