@@ -12,7 +12,7 @@
 
 | 1. GEO 审计 (灯塔效果) | 2. MCP 联动 (AI 助手模式) |
 | :--- | :--- |
-| ![Scan Demo](docs/scan_demo.gif) | ![MCP Demo](docs/mcp_demo.gif) |
+| ![Scan Demo](docs/img/scan_demo.gif) | ![MCP Demo](docs/img/mcp_demo.gif) |
 | *展示文档结构树与 GEO 评分* | *展示 AI 自动调用工具查阅文档* |
 
 ---
