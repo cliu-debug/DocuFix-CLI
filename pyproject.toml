@@ -1,5 +1,5 @@
 [project]
-name = "docufix"
+name = "docufix-ai"
 version = "0.1.0"
 description = "AI Compatibility Audit & Enhancement Suite"
 authors = [

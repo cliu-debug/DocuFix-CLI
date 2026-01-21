@@ -8,6 +8,15 @@
 
 **DocuFix** 是专为 AI 时代设计的文档优化工具 (GEO - Generative Engine Optimization)。它通过模拟 RAG 系统的检索逻辑，一键检测并修复文档中的 AI 可读性缺陷。
 
+## 📺 视觉演示 (Visual Demo)
+
+| 1. GEO 审计 (灯塔效果) | 2. MCP 联动 (AI 助手模式) |
+| :--- | :--- |
+| ![Scan Demo](docs/scan_demo.gif) | ![MCP Demo](docs/mcp_demo.gif) |
+| *展示文档结构树与 GEO 评分* | *展示 AI 自动调用工具查阅文档* |
+
+---
+
 ## 🌟 核心理念：GEO (生成引擎优化)
 
 在 AI 驱动开发的今天，文档的价值不再仅仅取决于人类是否好读，而取决于 **AI Agent 是否好用**。DocuFix 帮助您：
